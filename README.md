@@ -1,8 +1,8 @@
 # textmate-clojure
 
-A dead-simple TextMate bundle for Clojure: syntax highlighting only.
+A TextMate bundle providing syntax highlighting for Clojure.
 
-Based on a previous bundle by [`stephenroller`](github.com/stephenroller/clojure-tmbundle).
+Based on a previous Clojure bundle by [`stephenroller`](http://github.com/stephenroller/clojure-tmbundle).
 
 Install with:
 
