@@ -59,6 +59,10 @@
 		</dict>
 		<dict>
 			<key>include</key>
+			<string>#var</string>
+		</dict>
+		<dict>
+			<key>include</key>
 			<string>#constants</string>
 		</dict>
 		<dict>
@@ -93,7 +97,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(nil)</string>
+					<string>(nil)(?=(\s|\)|\]|\}))</string>
 					<key>name</key>
 					<string>constant.language.nil.clojure</string>
 				</dict>
@@ -376,6 +380,13 @@
 					<string>meta.symbol.clojure</string>
 				</dict>
 			</array>
+		</dict>
+		<key>var</key>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;=(\s|\(|\[|\{)\#)'[a-zA-Z0-9\.\-\_\:\+\=\&gt;\&lt;\/\!\?\*]+(?=(\s|\)|\]|\}))</string>
+			<key>name</key>
+			<string>meta.var.clojure</string>
 		</dict>
 		<key>vector</key>
 		<dict>
