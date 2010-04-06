@@ -288,7 +288,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>(?&lt;=\()(ns|def|def-|defn|defn-|defvar|defvar-|defmacro|defmacro-)\s+(.+?)(?=\s)</string>
+					<string>(?&lt;=\()(ns|def|def-|defn|defn-|defvar|defvar-|defmacro|defmacro-|deftest)\s+(.+?)(?=\s)</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
