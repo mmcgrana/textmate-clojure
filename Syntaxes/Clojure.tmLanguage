@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>clj</string>
+		<string>cljs</string>
 		<string>clojure</string>
 	</array>
 	<key>foldingStartMarker</key>
