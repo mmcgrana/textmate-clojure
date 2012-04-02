@@ -6,6 +6,6 @@ Based on a previous Clojure bundle by [`stephenroller`](http://github.com/stephe
 
 Install with:
 
-    $ cd ~/Library/Application\ Support/TextMate/Bundles
+    $ cd /Applications/TextMate.app/Contents/SharedSupport/Bundles
     $ git clone git://github.com/mmcgrana/textmate-clojure.git Clojure.tmbundle
     $ osascript -e 'tell app "TextMate" to reload bundles'
